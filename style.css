@@ -1,4 +1,16 @@
 /* TODO: design your profile with CSS */
+h1 {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #225277;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 25px;
+    margin-bottom: 12.5px;
+}
 .banner {
     color: white;
     text-align: center;
