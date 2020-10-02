@@ -1,130 +1,214 @@
 <!-- TODO: add HTML content to your profile -->
-<html>
-  <head>
-    <meta property="og:image" content="facebook-card.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <meta name="twitter:image:src" content="http://twitter-card.jpg">
-    <link rel="stylesheet" href="style.css">
-    <style>
-      .gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}
-    </style>  
-    <title>Hello</title>
+<head>
+  <style>.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}</style>
+  <style>.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}</style>
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700">
+  <style>.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}</style>
+  <style>.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}</style>
+  <style>@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style>
+  <style>.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}</style>
+  <style>.gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}</style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Overpass+Mono:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-55014681a89fc7dbe97c2da44a50ecb7def7c1577185f9e592e65fe1753ba83d.ico">
+  <title>Viktor Emilov</title>
+  <meta name="csrf-param" content="authenticity_token">
+  <meta name="csrf-token" content="b0Pp7whWesTYC3o0nU46QuYrXODF/uknCvqZb+bKlgMejzFmE5qGMhH3Sc6j5V8fYanODlm/jKsHk2E3gU7nfg==">
+  <meta name="action-cable-url" content="/cable">
+  <link rel="stylesheet" media="all" href="/assets/application-4838b0762ef0ac00f19757ecdcbc143b29ab24f62b7a4e68ebf54fc709d767bf.css">
 </head>
-  <body>
-      <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1546948630-1149ea60dc86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');">
-        <div class="navbar-lewagon">
-          <div class="navbar-flex">
-            <div class="navbar-wagon-right">
-              <ul class="page-scroll smooth-scroll">
-                <a id="navbar-text" href="#about-me" class="navbar-wagon-item navbar-wagon-link"> About </a>
-                <a id="navbar-text" href="#projects" class="navbar-wagon-item navbar-wagon-link"> Projects </a>
-                <a id="navbar-text" href="#skills" class="navbar-wagon-item navbar-wagon-link"> Skills </a>
-                <a id="navbar-text" href="#activities" class="navbar-wagon-item navbar-wagon-link"> Activities </a>
-                <a id="navbar-text" href="#contacts" class="navbar-wagon-item navbar-wagon-link"> Contacts </a>
-              </ul>  
-            </div>  
-          </div> 
-        </div> 
-      </div>
-      <div id="about-me" class="white-banner">
-        <div class="container">
-          <div class="about-title text-center">
-            <div class="title-and-cv">
-              <h1>
-                About Me
-              </h1>  
-            </div>  
-          </div>  
-          <div class="row no-gutters">
-            <div class=" text-center col-xs-12 col-sm-10 col-sm-offset-1">
-              <p id="line-height">
-                My name is Viktor and i love coding, My name is Viktor and i love coding, My name is Viktor and i love coding, My name is Viktor and i love coding, My name is Viktor and i love coding, My name is Viktor and i love coding, My name is Viktor and i love coding, My name is Viktor and i love coding, My name is Viktor and i love coding
-              </p>  
-            </div>  
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" style="margin-top: 0px;">
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1529047278268-b2a3afc29593?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');">
+<div class="navbar-wagon">
+  <div class="navbar-flex">
+    <div class="navbar-wagon-right">
+      <ul class="page-scroll smooth-scroll">
+        <a id="navbar-text" href="#about-me" class="navbar-wagon-item navbar-wagon-link">About</a>
+        <a id="navbar-text" href="#projects" class="navbar-wagon-item navbar-wagon-link">Projects</a>
+        <a id="navbar-text" href="#skills" class="navbar-wagon-item navbar-wagon-link">Skills</a>
+        <a id="navbar-text" href="#activities" class="navbar-wagon-item navbar-wagon-link">Activities</a>
+        <a id="navbar-text" href="#contacts" class="navbar-wagon-item navbar-wagon-link">Contacts</a>
+      </ul>
+    </div>
+    <hr class="top">
+  </div>
+</div>
+<div class="banner-content">
+  <h3 id="banner-title">Viktor Emilov</h3>
+  <p id="app"><span class="typewriter-wrapper"></span><span class="typewriter-cursor" style="opacity: 0.7;">|</span></p>
+</div>
+</div>
+<div id="about-me" class="white-banner">
+<div class="container">
 
-          </div>  
-          <div class="row no-gutters row-spacer flex-test">
-            <div class="about-text-left">
-              <p id="line-height">
-                I am tech pasionate from young age, I am tech pasionate from young age, I am tech pasionate from young age, I am tech pasionate from young age, I am tech pasionate from young age, I am tech pasionate from young age, I am tech pasionate from young age, I am tech pasionate from young age, I am tech pasionate from young age, 
-              </p>  
-            </div>  
-          </div>  
-          <div class="row no-gutters row-spacer flex-test">
-            <div class="about-text-right">
-              <p id="line-height">
-                I completed coding boot-camp Le Wagon, I completed coding boot-camp Le Wagon, I completed coding boot-camp Le Wagon, I completed coding boot-camp Le Wagon, I completed coding boot-camp Le Wagon, I completed coding boot-camp Le Wagon, I completed coding boot-camp Le Wagon, I completed coding boot-camp Le Wagon
-              </p>  
-            </div>  
-          </div>  
-          <div class="row no-gutters row-spacer flex-test">
-            <div class="about-text-left">
-              <p id="line-height">
-                Check out my projects, Check out my projects, Check out my projects, Check out my projects, Check out my projects, Check out my projects, Check out my projects, Check out my projects, Check out my projects, Check out my projects, Check out my projects, Check out my projects, Check out my projects, Check out my projects
-              </p>  
-            </div>  
-          </div>  
-          <div class="text-center col-xs-12 col-sm-10 col-sm-offset-1">
-            <p id="line-height">
-              In my free time i like painting, cooking and all kind of sports, In my free time i like painting, cooking and all kind of sports, In my free time i like painting, cooking and all kind of sports, In my free time i like painting, cooking and all kind of sports, In my free time i like painting, cooking and all kind of sports
-            </p>  
-          </div>  
-        </div>  
-      </div>
-      <div id="projects" class="colored-banner">
+  <div class="about-title text-center">
+    <div class="title-and-cv">
+      <h1>About Me</h1>
+    </div>
+  </div>
+
+  <div class="row no-gutters">
+    <div class="text-center col-xs-12 col-sm-10 col-sm-offset-1">
+      <p id="line-height">I am a tech passionate, full-stack junior developer that recently completed Le Wagon, #1 coding Bootcamp in the world. Thanks to a strong determination and wish to learn, I am amazed at what I am capable of after 9 weeks of intensive courses. Combining coding, design thinking, data and strategy, I feel like I am ready to undertake new challenges and deliver strong results for the company I'll have the opportunity to work. I am known as a reliable and easy to work with person, always willing to reach new targets.</p>
+    </div>
+  </div>
+
+  <div class="row no-gutters row-spacer flex-test">
+    <div class="about-text-left">
+      <p id="line-height">After I graduated from Ruse University, I started my own company in UK, where I worked as a Service Engineer for 7 months, after this period I decided to join well established company called "Capital Repairs" , where I quickly gained trust in their management team and was appointed with giving technical education for some of their service engineers. After 1 year of employment for "Capital Repairs" I became branded service engineer for a Swiss Company called "V-Zug" famous with their brilliant and astonishing design appliances. </p>
+    </div>
+    <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000" text-center"="" class="aos-init"><img width="200" height="200" id="avatar" src="/images/plovdiv.jpg" alt="profile">
+    </div>
+  </div>
+
+  <div class="row no-gutters row-spacer flex-test">
+    <div data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="text-center aos-init"><img width="200" height="200" id="avatar" src="/images/Viktor.jpg" alt="Wagon logo"></div>
+    <div class="about-text-right">
+      <p id="line-height">I am amazed at what I am capable of after 9 weeks of intensive courses. Combining coding, design thinking, data and strategy, <a target="_blank" class="voyagr" href="https://www.trackmycruise.com/">trackmycruise.com</a>, a place where you can check the condition of the weather and the sea in the past.</p>
+    </div>
+  </div>
+
+  <div class="row no-gutters row-spacer flex-test">
+    <div class="about-text-left">
+      <p id="line-height">I completed Le Wagon London #1 Coding Bootcamp in the world. The bootcamp consists in an intensive 9-week of courses where I learned test-driven code and best practices.</p>
+    </div>
+    <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="text-center aos-init"><img width="200" height="200" id="avatar" src="/images/tree.jpg" alt="Viktor"></div>
+  </div>
+
+    <div class="text-center col-xs-12 col-sm-10 col-sm-offset-1">
+      <p id="line-height">In my free i like painting, cooking and all kind of sports</p>
+      <br>
+      <br>
+      <button type="button" class="btn btn-primary btn-lg" id="resume-btn" data-toggle="modal" data-target="#myModal">Resume</button>
+      <a href="/images/resume.pdf" download="ViktorEmilov">
+        <button type="button" class="btn btn-success btn-lg dwn-btn">Download</button>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div id="projects" class="colored-banner">
+<div id="white-font" class="container">
+  <h1 class="text-center">Projects</h1>
+  <div class="row no-gutters">
+    <div class="col-md-6 light-font">
+      <div class="skills-para">
+        <p>Here you can find the projects i have worked on individualy and in team with other developers
         <br>
-        <div class="container">
-          <br>
-          <div class="row no-gutters">
-            <br>
-            <h1 class="text-center">
-              Projects
-            </h1>  
-            <br>
-            <div class="col-xs-12 col-sm-10 col-sm-offset-1 work-individual">
-              <p id="line-height">
-                This summer i have completed 3 projects, This summer i have completed 3 projects, This summer i have completed 3 projects, This summer i have completed 3 projects, This summer i have completed 3 projects, This summer i have completed 3 projects, This summer i have completed 3 projects, This summer i have completed 3 projects
-              </p>  
-            </div> 
-            <div class="col-xs-12 col-sm-10 col-sm-offset-1 work-individual">
-              <p id="line-height">
-                Currently i am Full Stack Junior Developer, Currently i am Full Stack Junior Developer, Currently i am Full Stack Junior Developer, Currently i am Full Stack Junior Developer, Currently i am Full Stack Junior Developer, Currently i am Full Stack Junior Developer, Currently i am Full Stack Junior Developer
-              </p>  
-            </div>    
-          </div>  
-        </div>
+        <br>
+        cookingvenue is individual project
+        <br>
+        <br>
+        trackmycruise and BNB Boats are made in a team of 4 developers including me</p>
       </div>
-      <div id="skills" class="white-banner">
-        <div id="white-font" class="container">
-          <h1 class="text-center">
-            My Skills
-          </h1>  
-          <div class="row no-gutters">
-            <div class="col-md6 light-font">
-              <div class="skills-para">
-                <p>
-                  Ruby On Rails, HTML, CSS ,JavaScript, Web Api etc.  Ruby On Rails, HTML, CSS ,JavaScript, Web Api etc.  Ruby On Rails, HTML, CSS ,JavaScript, Web Api etc.  Ruby On Rails, HTML, CSS ,JavaScript, Web Api etc.  Ruby On Rails, HTML, CSS ,JavaScript, Web Api etc.  Ruby On Rails, HTML, CSS ,JavaScript, Web Api etc.
-                </p>  
-              </div>
-            </div>  
-            <div class="col-md-6">
-              <div class="skill-chart">
-                <div class="skill-names light-font">
-                  <p id="skill">HTML/CSS </p>
-                  <p id="skill">JavaScript </p>
-                  <p id="skill">Ruby On Rails </p>
-                  <p id="skill">Web Api </p>
-                  <p id="skill">MVC Pattern </p>
-                </div>  
-              </div>  
-            </div>  
-          </div>  
-        </div>  
-      </div>
-      <div id="activities" class="white-banner">
-      </div>
-      <div id="contacts" class="colored-banner">
-          </div>                          
-  </body>
-</html>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="skills" class="white-banner">
+<div class="container">
+  <div class="no-gutters">
+    <h1 class="text-center">Skills</h1>
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 work-individual">
+     
+    </div>
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 work-individual">
+      <p id="line-height">I am currently freelancer, coding in my free time   </p>
+    </div>
+  </div>
+</div>
+</div>
+<div id="activities" class="map-banner text-center">
+<h1> Activities</h1>
+<br>
+<br>
+</div>
+
+<div id="contacts" class="white-banner text-center">
+<div class="container">
+  <div class="no-gutters">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center contact-info contact-links">
+      <h1> Contacts</h1>
+      <p id="line-height">I am currently available for freelance full-stack and front-end work, if you like what you've seen here and would like to get into contact with me just hit on one of the links below to contact me via LinkedIn, Github, Facebook or Email. If you are interested in having me build a website for you then e-mail is the best way to get in touch. Thanks! </p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container">
+<div class="row no-gutters">
+  <div class="link-holder">
+    <div class="col-xs-6 col-sm-3">
+      <a target="_blank" class="links fab fa-linkedin" href="https://www.linkedin.com/in/viktor-emilov-755bb6123/"></a>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+      <a target="_blank" class="links fab fa-github" href="https://github.com/Proxima89"></a>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+      <a target="_blank" class="links fab fa-facebook-f" href=" "></a>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+      <a class="links far fa-envelope" href="viktoremilovv@gmail.com"></a>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="myModal" class="modal fade" role="dialog">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+    <div class="modal-body cv-holder">
+      <img id="resume" src="/images/" alt="ViktorEmilov">
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+AOS.init();
+</script>
+
+<script>
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Front End Developer')
+  .pauseFor(500)
+  .deleteAll()
+  .typeString('Back End Developer')
+  .pauseFor(500)
+  .deleteAll()
+  .typeString('Engineer')
+  .pauseFor(500)
+  .start();
+</script>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
+</script>
+  <script src="/packs/application-e05e5547da54c81f9944.js"></script>
+  <script src="/assets/application-1fb6a6ca7cb008dea4c4a34ba48e5a37facecc0de3d1d5ed37433a4fe5f88fc9.js"></script>
+<div id="heightie" style="top: -30px;"><p style="margin:0;padding:0;">Height: 864</p></div></body>

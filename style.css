@@ -1,51 +1,28 @@
 /* TODO: design your profile with CSS */
-h1 {
-    font-family: 'Raleway', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    color: #225277;
+element.style {
+    margin-top: 0px;
 }
-h1, .h1, h2, .h2, h3, .h3 {
-    margin-top: 25px;
-    margin-bottom: 12.5px;
-}
-.banner {
-    color: white;
-    text-align: center;
-    height: 100vh;
-    background-size: cover !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center bottom;
-}
-.navbar-wagon {
-    padding: 20px 0px;
-    position: absolute;
-    top: 0px;
-    text-align: center;
-    background: transparent;
-    width: 100vw;
-    box-shadow: none;
-    transition: all 0.6s ease-out;
-}
-.navbar-flex {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    text-align: center;
-}
-.navbar-wagon-right {
-    text-align: center;
-}
-ul {
+body {
+    font-family: "Open Sans", "Helvetica", "sans-serif";
+    font-size: 18px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #F4F4F4;
     display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    margin: 8px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*:before, *:after {
+    box-sizing: border-box;
+}
+*:before, *:after {
+    box-sizing: border-box;
 }
