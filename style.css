@@ -1,9 +1,19 @@
 /* TODO: design your profile with CSS */
+.footsoc {   
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    font-size:2em; 
+}
 element.style {
     margin-top: 0px;
 }
+.white-banner {
+    background-color: white;
+}
 .margin-left{
-    margin-left: 25%;
+    margin-left: 31%;
 }    
 body {
     font-family: "Open Sans", "Helvetica", "sans-serif";
@@ -94,3 +104,81 @@ p {
 .para-size {
     font-size: 25px;
 }
+
+.img-opa {
+    opacity: 0.7;
+}
+.top-link {
+    background-color: #4a5057;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;  
+    box-sizing: inherit;
+}
+.do-center {
+    margin-left: 220px;
+    justify-content: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+  }
+  
+  // Smallest device
+  @media (min-width: 100px) and (max-width: 575px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .cards {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .cards {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .cards {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  .card-category {
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  
