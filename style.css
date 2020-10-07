@@ -110,75 +110,59 @@ p {
 }
 .top-link {
     background-color: #4a5057;
-   
+    height: 42px;
+    width: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;  
     box-sizing: inherit;
+    margin-left: 49%;
+    
 }
 .do-center {
     margin-left: 220px;
     justify-content: center;
 }
-.flex-container {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 16px;
-  }
-  
-  // Smallest device
-  @media (min-width: 100px) and (max-width: 575px) {
-    .cards {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  // Small devices (landscape phones, 576px and up)
-  @media (min-width: 576px) {
-    .cards {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  // Medium devices (tablets, 768px and up)
-  @media (min-width: 768px) {
-    .cards {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  
-  // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) {
-    .cards {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
-  
-  // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: 1200px) {
-    .cards {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
-  .card-category {
-    background-size: cover;
-    background-position: center;
-    height: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    border-radius: 5px;
+.card-product {
+    overflow: hidden;
+    height: 120px;
+    background: white;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
   }
   
+  .card-product img {
+    height: 100%;
+    width: 120px;
+    object-fit: cover;
+  }
+  
+  .card-product h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-product p {
+    font-size: 12px;
+    line-height: 1.4;
+    opacity: .7;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+  
+  .card-product .card-product-infos {
+    padding: 16px;
+  }
+
+
+
+.stagger-visualizer div {
+  /*position: absolute;*/
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid rgb(247, 10, 10);
+  background-color: blueviolet;
+}
