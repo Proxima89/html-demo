@@ -48,6 +48,10 @@ html {
     justify-content: center;
     background-position: center bottom;
 }
+#banner-title {
+    /* margin-top: 100px;
+    line-height: 20px; */
+}
 .navbar-wagon {
     padding: 20px 0px;
     position: absolute;
@@ -72,16 +76,15 @@ html {
     width: 100vw;
     text-align: center;
 }
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+.top {
+    height: 1px;
+    width: 25%;
+    align-items: center;
+    color: white;
+    background-color: white;
+    border: none;
+    opacity: 0.6;
 }
-
 p {
     font-family: 'Raleway', sans-serif;
 }
@@ -109,15 +112,15 @@ p {
     opacity: 0.7;
 }
 .top-link {
-    background-color: #4a5057;
-    height: 42px;
-    width: 42px;
+    /* background-color: #4a5057; */
+    /* height: 42px;
+    width: 42px; */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;  
     box-sizing: inherit;
-    margin-left: 49%;
+    /* margin-left: 49%; */
     
 }
 .do-center {
