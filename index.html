@@ -19,8 +19,11 @@
   <link rel="stylesheet" href="/lightbox.css" type="text/css">
   <link rel="stylesheet" href="/skillbar.css" type="text/css">
   <link rel="stylesheet" href="/cvholder.css" type="text/css">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
   <meta name="csrf-param" content="authenticity_token">
   <meta name="csrf-token" content="b0Pp7whWesTYC3o0nU46QuYrXODF/uknCvqZb+bKlgMejzFmE5qGMhH3Sc6j5V8fYanODlm/jKsHk2E3gU7nfg==">
   <meta name="action-cable-url" content="/cable">
@@ -38,27 +41,27 @@
 <div class="navbar-wagon">
   <div class="navbar-flex">
     <div class="navbar-wagon-right">
-      <ul class="page-scroll smooth-scroll">
+      <div class="page-scroll smooth-scroll">
         <a id="navbar-text" href="#about-me" class="navbar-wagon-item navbar-wagon-link">About</a>
         <a id="navbar-text" href="#projects" class="navbar-wagon-item navbar-wagon-link">Projects</a>
         <a id="navbar-text" href="#skills" class="navbar-wagon-item navbar-wagon-link">Skills</a>
         <a id="navbar-text" href="#activities" class="navbar-wagon-item navbar-wagon-link">Activities</a>
         <a id="navbar-text" href="#contacts" class="navbar-wagon-item navbar-wagon-link">Contacts</a>
-      </ul>
-       <ul> 
+      </div>
+       
       <hr class="top text-center">
-      </ul>
+     
     </div> 
   </div>
 </div>
 <div class="banner-content">
   <div>
-    <ul>
+   
   <h1 id="banner-title" class="display-2"> Welcome to my website !<hr class="top"></h1>
   <p class="h2"> I am </p>
   </ul>
   </div>
-  <ul>
+  
   <p id="app" class="para-size"><span class="typewriter-wrapper "></span><span class="typewriter-cursor" style="opacity: 0.9;">|</span></p>
     </ul>
 </div>
@@ -78,26 +81,26 @@
       <p id="line-height">Hi, my name is Viktor, few years ago I graduated from Ruse University, where i studied electronics and after that i moved to UK and started my own company, where I worked as a Service Engineer for nearly a year, after this period I decided to join well established company, where I quickly gained trust in their management team and was appointed with giving technical education for some of their service engineers. After more then a year I came to the point, where I decided to change my career into software development and joined coding boot-camp. 
       </p>
     </div>
-    <div data-aos="fade-right"  data-aos-duration="1000" class="col-xs-8 col-sm-4 col-sm"> 
-      <img width="200" height="200" id="avatar" src="/images/plovdiv.jpg" alt="profile" class="rounded-circle float-left" style="opacity:0.9">
+    <div data-aos="fade-right"  data-aos-duration="2000" class="col-xs-6 col-sm-5 col-sm-offset-1"> 
+      <img width="200" height="200" id="avatar" src="/images/plovdiv.jpg" alt="profile" class="rounded-circle float-left margin-left" style="opacity:0.9">
     </div>
   </div>
-  <br>
   <div class="row no-gutters row-spacer flex-test ">
-    <div data-aos="fade-left" data-aos-duration="1000" class="col-xs-8 col-sm-6 col-sm-offset-1">
-      <img width="200" height="200" id="avatar" src="/images/viktor.jpg" alt="Viktor" class="rounded-circle float-left margin-left" style="opacity:0.9">
-    </div>  
     <div class="text-center col-xs-8 col-sm-6 col-sm-offset-1">    
       <p id="line-height">I am a tech passionate, full-stack junior developer, recently completed Le Wagon, #1 coding Bootcamp in the world. Thanks to a strong determination and wish to learn, I am amazed at what I am capable of after 9 weeks of intensive courses. In my portfolio you will find some of the projects I did while studying at the boot-camp and also one individual project out of the camp. </p> 
     </div>
+    <div data-aos="fade-left" data-aos-duration="2000" class="col-xs-6 col-sm-5 col-sm-offset-1">
+      <img width="200" height="200" id="avatar" src="/images/viktor.jpg" alt="Viktor" class="rounded-circle float-center margin-left" style="opacity:0.9">
+    </div>  
   </div>
+  <br>
   <br>
   <div class="row no-gutters">
     <div class="text-center col-xs-8 col-sm-6 col-sm-offset-1">
       <p id="line-height"> Currently, full-stack junior developer, who is improving his skills and knowledge in programming languages, and known as a reliable and easy to work with person, always willing to reach new targets. If you want to expand your circle of IT friends, please feel free to contact with me. </p>
     </div>
-    <div data-aos="fade-right"  data-aos-duration="1000" class="col-xs-8 col-sm-4 col-sm"> 
-      <img width="200" height="200" id="avatar" src="/images/mount.jpg" alt="profile" class="rounded-circle float-left" style="opacity:0.9">
+    <div data-aos="fade-right"  data-aos-duration="2000" class="col-xs-6 col-sm-5 col-sm-offset-1"> 
+      <img width="200" height="200" id="avatar" src="/images/mount.jpg" alt="profile" class="rounded-circle float-left margin-left" style="opacity:0.9">
     </div>
   </div>
     <div class="text-center">
@@ -114,78 +117,69 @@
 <br>
 <div id="projects" class="container bg-white rounded">
   <div id="white-font" class="container"> 
+    <div>
     <br>
     <h1 class="text-center text-secondary"> Projects </h1>
     <br>
     <div class="row">
       <div class="col text-center">
         <h2> Track My Cruise </h2>
-        <p><a target="_blank" href="https://www.trackmycruise.com/"> TrackMyCruise</a> is application, which allows you to get retrospective marine weather data (wave height, wind, temperature, etc.) for couple of years's back in history, where you can keep the records in a form of cards.
-        This application have been builded up in a team of 4 people and launched in just 2 weeks time. My main contribution was the back-end programmed on<strong> Ruby On Rails</strong> and the page with the cards, where the user can update a card on a modal page with picture preview option coded with <strong> JavaSctipt, HTML & CSS </strong>.I also created Cloudinary <strong> Web API </strong> in order to upload images. </p>    
+            <p><a target="_blank" href="https://www.trackmycruise.com/"> TrackMyCruise</a> is application, which allows you to get retrospective marine weather data (wave height, wind, temperature, etc.) for couple of years's back in history, where you can keep the records in a form of cards.
+            This application have been builded up in a team of 4 people and launched in just 2 weeks time. My main contribution was the back-end programmed on<strong> Ruby On Rails</strong> and the page with the cards, where the user can update a card on a modal page with picture preview option coded with <strong> JavaSctipt, HTML & CSS </strong>.I also created Cloudinary <strong> Web API </strong> in order to upload images. </p>    
         </div>
         <div class="col text-center">
           <h2> Cooking Venue </h2>
-        <p>Here is<a target="_blank" href="http://cookingvenue.com/"> CookingVenue</a> My bloging website, where i am posting recipes for my favorite dishes. 
-        Cooking Venue is individual project, this is my personal blogging website builded up on<strong> WordPress</strong>, where i am sharing my cooking experience.</p>
+            <p>Here is<a target="_blank" href="http://cookingvenue.com/"> CookingVenue</a> My bloging website, where i am posting recipes for my favorite dishes. 
+            Cooking Venue is individual project, this is my personal blogging website builded up on<strong> WordPress</strong>, where i am sharing my cooking experience.</p>
         </div>
         <div class="col text-center">
           <h2> Boat BNB </h2>
-        <p>After creating account on <a target="_blank" href="https://airbnb-pinefoambath.herokuapp.com/"> Boat BNB </a> you will be able to hire private boat and go for an adventure or you can list your own boat and earn some extra cash.
-        The application, was builded up in a team of 4 people, where my main contribution is the design part created on <strong> Figma </strong>, I did a lot of<strong> HTML & CSS </strong>,I was involved with the back-end (<strong> Ruby On Rails </strong>) and also created Cloudinary <strong> Web API </strong> in order to have cool image gallery. </p>      
+            <p>After creating account on <a target="_blank" href="https://airbnb-pinefoambath.herokuapp.com/"> Boat BNB </a> you will be able to hire private boat and go for an adventure or you can list your own boat and earn some extra cash.
+            The application, was builded up in a team of 4 people, where my main contribution is the design part created on <strong> Figma </strong>, I did a lot of<strong> HTML & CSS </strong>,I was involved with the back-end (<strong> Ruby On Rails </strong>) and also created Cloudinary <strong> Web API </strong> in order to have cool image gallery. </p>
       </div>
     </div>
-    <div class="row">
-      <div class="col">
-         <img src="/images/ProjectImage.jpg" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" alt="Toy car on the road." />
-      </div>
-      <div class="col">
-         <img src="/images/cooking.jpg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" alt="Toy car exploring offroad." />
-      </div>
-      <div class="col">
-         <img src="/images/BNB.jpg" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" alt="Toy car in the city" />
-      </div>
-    </div>   
-    <div id="Lightbox" class="modal">
-      <span class="close pointer" onclick="closeLightbox()">&times;</span>
-      <div class="modal-content">
-        <div class="slide">
-          <img src="/images/ProjectImage.jpg" class="image-slide" alt="Toy car on the road.citytesttest test test test." />
-        </div>
-        <div class="slide">
-          <img src="/images/cooking.jpg" class="image-slide" alt="Toy car exploring offroad.citytesttest test test test." />
-        </div>    
-        <div class="slide">
-          <img src="/images/BNB.jpg" class="image-slide" alt="Toy car in the citytesttest test test test." />
-        </div>   
-        <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
-        <a class="next" onclick="changeSlide(1)">&#10095;</a>        
-        <div class="dots">
-          <div class="col">
-            <img src="/images/ProjectImage.jpg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="Toy car on the road." />
-          </div>
-          <div class="col">
-            <img src="/images/cooking.jpg" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="Toy car exploring offroad." />
-          </div>
-          <div class="col">
-            <img src="/images/BNB.jpg" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="Toy car in the city" />
-          </div>
-        </div>
-      </div> 
     </div>
-    <div class="row">
-      <div class="col text-center">
-        <p> </p>      
+      <div class="row">
+        <div class="col">
+          <img src="/images/ProjectImage.jpg" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" alt="Toy car on the road." />
         </div>
-        <div class="col text-center">
-          <br>
-          <br>
-        <p></p>      
+        <div class="col">
+          <img src="/images/cooking.jpg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" alt="Toy car exploring offroad." />
         </div>
-        <div class="col text-center">
-        <p> </p>      
+        <div class="col">
+          <img src="/images/BNB.jpg" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" alt="Toy car in the city" />
+        </div>
+      </div>   
+      <div id="Lightbox" class="modal">
+        <span class="close pointer" onclick="closeLightbox()">&times;</span>
+        <div class="modal-content">
+          <div class="slide">
+            <img src="/images/ProjectImage.jpg" class="image-slide" alt="Toy car on the road.citytesttest test test test." />
+          </div>
+          <div class="slide">
+            <img src="/images/cooking.jpg" class="image-slide" alt="Toy car exploring offroad.citytesttest test test test." />
+          </div>    
+          <div class="slide">
+            <img src="/images/BNB.jpg" class="image-slide" alt="Toy car in the citytesttest test test test." />
+          </div>   
+          <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+          <a class="next" onclick="changeSlide(1)">&#10095;</a>        
+          <div class="dots">
+            <div class="col">
+              <img src="/images/ProjectImage.jpg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="Toy car on the road." />
+            </div>
+            <div class="col">
+              <img src="/images/cooking.jpg" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="Toy car exploring offroad." />
+            </div>
+            <div class="col">
+              <img src="/images/BNB.jpg" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="Toy car in the city" />
+            </div>
+          </div>
+        </div> 
       </div>
-    </div> 
   </div>
+  <br>
+  <br>
 </div>
 <br>
 <div id="skills" class=" container white-banner bg-white rounded">
@@ -213,37 +207,37 @@
          <div class="container mbottom p-1 rounded" >
           <h4>HTML</h4>
           <div class="viktorbar p-1 rounded" style="height: 25px;">
-            <div class="skillsbar html p-1 rounded" style="height: 20px;"> <h5> 90% </h5></div>
+            <div class="skillsbar html p-1 rounded" style="height: 20px;"> <h5> 95% </h5></div>
           </div>
           
             <!-- End Skill Bar -->
             <h4>CSS</h4>
             <div class="viktorbar p-1 rounded" style="height: 25px;">
-              <div class="skillsbar css p-1 rounded" style="height: 20px;"> <h5>80% </h5></div>
+              <div class="skillsbar css p-1 rounded" style="height: 20px;"> <h5>93% </h5></div>
             </div>
             
             <!-- End Skill Bar -->
             <h4>Rails</h4>
             <div class="viktorbar p-1 rounded" style="height: 25px;">
-              <div class="skillsbar ruby p-1 rounded" style="height: 20px;">  <h5>55% </h5> </div>      
+              <div class="skillsbar ruby p-1 rounded" style="height: 20px;">  <h5>71% </h5> </div>      
             </div>
             
             <!-- End Skill Bar -->
             <h4>JavaScript</h4> 
             <div class="viktorbar p-1 rounded" style="height: 25px;">
-              <div class="skillsbar js p-1 rounded" style="height: 20px;"> <h5>40% </h5> </div>
+              <div class="skillsbar js p-1 rounded" style="height: 20px;"> <h5>55% </h5> </div>
             </div>
             
             <!-- End Skill Bar -->
             <h4>Web API</h4>
             <div class="viktorbar p-1 rounded" style="height: 25px;">
-              <div class="skillsbar api p-1 rounded" style="height: 20px;"> <h5>60% </h5> </div>
+              <div class="skillsbar api p-1 rounded" style="height: 20px;"> <h5>76% </h5> </div>
             </div> 
             
             <!-- End Skill Bar -->
             <h4>GitHub</h4>
             <div class="viktorbar p-1 rounded" style="height: 25px;">
-              <div class="skillsbar git mbottom p-1 rounded" style="height: 20px;"> <h5>85% </h5> </div>
+              <div class="skillsbar git mbottom p-1 rounded" style="height: 20px;"> <h5>92% </h5> </div>
             </div>
             <!-- End Skill Bar -->   
             </div>  
