@@ -16,12 +16,12 @@
 }
 
 
-.html {width: 90%; background-color: #f25a07;} /* Orange */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 40%;  background-color: #f2cb07;} /* Yellow */
-.ruby {width: 55%; background-color: #c90000;} /* Dark Grey */
-.api {width: 60%;  background-color: rgb(17, 117, 17);}
-.git {width: 85%; background-color: black;}
+.html {width: 95%; background-color: #f25a07;} /* Orange */
+.css {width: 93%; background-color: #2196F3;} /* Blue */
+.js {width: 55%;  background-color: #f2cb07;} /* Yellow */
+.ruby {width: 71%; background-color: #c90000;} /* Dark Grey */
+.api {width: 76%;  background-color: rgb(17, 117, 17);}
+.git {width: 92%; background-color: black;}
 
 .footer {
   background-color: #484848;
