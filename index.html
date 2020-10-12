@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="/lightbox.css" type="text/css">
   <link rel="stylesheet" href="/skillbar.css" type="text/css">
   <link rel="stylesheet" href="/cvholder.css" type="text/css">
-  <link rel="stylesheet" href="contact-form.css">
+  <link href="contact-form.css" rel="stylesheet">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@ViktorEmilov">
   <meta name="twitter:title" content="Viktor Emilov - Full-Stack Developer, Engineer">
@@ -248,6 +248,7 @@
       <br>
   </div>
 </div>
+<br>
 <div id="activities" class="container text-center bg-white rounded">
   <br>
   <h1 class="text-secondary"> Activities</h1>  
@@ -303,12 +304,14 @@
     <br>
   <h1 class="text-center text-secondary"> Contacts </h1>
   <br>
-  <p class="text-center"> I am currently available for freelance full-stack, if you like what you've seen here and would like to get into <strong> contact </strong>with me just click on the links below to contact me via Github, LinkedIn or Email. If you are interested in having me build up a website for you then e-mail is the best way to get in touch. If you are interested in employing me you can download my<strong> Resume</strong> from About page located above. Regards! </p>
+  <p class="text-center"> I am currently available for freelance full-stack, if you like what you've seen here and would like to get into <strong> contact </strong>with me just click on the links below to contact me via Github or LinkedIn. If you are interested in having me build up a website for you then sending me <strong>message</strong> is the best way to get in touch. If you are interested in employing me you can download my<strong> Resume</strong> from About page located above. Regards! </p>
   <br>
-  <div class="fcf-body col-xs-12 col-sm-6 rounded mx-auto d-block">
-
-    <div id="fcf-form" class="cent">
-    <h3 class="fcf-h3">Message me</h3>
+  
+  <div class="fcf-body rounded mx-auto d-block">
+    <h3 class="text-center" style="text-align-left">Message me</h3>
+    <div id="fcf-form" style="display: flex;
+    justify-content: center;">
+    
 
     <form id="fcf-form-id" class="fcf-form-class col-xs-12 col-sm-6"" method="post" action="contact-form-process.php">
         
@@ -338,9 +341,11 @@
         </div>
     </form>
     </div>
-
+    
+  </div> 
 </div>
-      <div class="d-flex justify-content-around display-3">
+<br>
+      <div class="d-flex justify-content-around display-2">
           <a target="_blank" class="fab fa-github text-secondary" href="https://github.com/Proxima89"></a>
           <a target="_blank" class="fab fa-linkedin text-secondary" href="https://www.linkedin.com/in/viktor-emilov-755bb6123/"></a>
       </div>
@@ -411,9 +416,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 </script>
+
   <script src="/packs/application-e05e5547da54c81f9944.js"></script>
   <script src="/assets/application-1fb6a6ca7cb008dea4c4a34ba48e5a37facecc0de3d1d5ed37433a4fe5f88fc9.js"></script>
-<div id="heightie" style="top: -30px;"><p style="margin:0;padding:0;"> </p></div></body>
+
 <script>
   let slideIndex = 1;
   showSlide(slideIndex);
