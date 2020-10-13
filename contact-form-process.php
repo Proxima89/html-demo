@@ -1,7 +1,6 @@
 <?php
 if (isset($_POST['Email'])) {
 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "viktjaye@server290.web-hosting.com";
     $email_subject = "New form submissions";
 
@@ -14,7 +13,6 @@ if (isset($_POST['Email'])) {
         die();
     }
 
-    // validation expected data exists
     if (
         !isset($_POST['Name']) ||
         !isset($_POST['Email']) ||
@@ -23,9 +21,9 @@ if (isset($_POST['Email'])) {
         problem('We are sorry, but there appears to be a problem with the form you submitted.');
     }
 
-    $name = $_POST['Name']; // required
-    $email = $_POST['Email']; // required
-    $message = $_POST['Message']; // required
+    $name = $_POST['Name']; 
+    $email = $_POST['Email']; 
+    $message = $_POST['Message']; 
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -60,14 +58,11 @@ if (isset($_POST['Email'])) {
     $email_message .= "Email: " . clean_string($email) . "\n";
     $email_message .= "Message: " . clean_string($message) . "\n";
 
-    // create email headers
     $headers = 'From: ' . $email . "\r\n" .
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
 ?>
-
-    <!-- include your success message below -->
 
     Thank you for contacting with me. I will be in touch with you very soon.
 
