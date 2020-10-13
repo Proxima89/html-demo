@@ -39,7 +39,6 @@ html { font-size:100%; }
 ul {
    margin-right: 10%;
 }
-
 .footsoc {   
     justify-content: center;
     justify-items: center;
@@ -88,10 +87,6 @@ html {
     align-items: center;
     justify-content: center;
     background-position: center bottom;
-}
-#banner-title {
-    /* margin-top: 100px;
-    line-height: 20px; */
 }
 .navbar-wagon {
     padding: 20px 0px;
@@ -149,16 +144,11 @@ p {
     opacity: 0.7;
 }
 .top-link {
-    /* background-color: #4a5057; */
-    /* height: 42px;
-    width: 42px; */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;  
-    box-sizing: inherit;
-    /* margin-left: 49%; */
-    
+    box-sizing: inherit;   
 }
 .do-center {
     margin-left: 220px;
@@ -178,13 +168,12 @@ p {
     width: 120px;
     object-fit: cover;
   }
-  
+
   .card-product h2 {
     font-size: 16px;
     font-weight: bold;
     margin: 0;
   }
-  
   .card-product p {
     font-size: 12px;
     line-height: 1.4;
@@ -192,15 +181,10 @@ p {
     margin-bottom: 0;
     margin-top: 8px;
   }
-  
   .card-product .card-product-infos {
     padding: 16px;
   }
-
-
-
 .stagger-visualizer div {
-  /*position: absolute;*/
   width: 1rem;
   height: 1rem;
   border: 1px solid rgb(247, 10, 10);
